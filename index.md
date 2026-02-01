@@ -48,8 +48,8 @@ If you opt in to crowd intelligence, the App collects anonymized statistics duri
 
 ## 2. Data We Share
 
-### With Our Servers (GitHub)
-If you opt in to crowd intelligence, anonymized data is uploaded once per day over WiFi to a private GitHub repository. This includes only the anonymized fields listed above (zone grids, hashed IDs, tip behavior, store ratings). No personal information is ever transmitted.
+### With Our Servers
+If you opt in to crowd intelligence, anonymized data is uploaded once per day over WiFi to our secure private servers. This includes only the anonymized fields listed above (zone grids, hashed IDs, tip behavior, store ratings). No personal information is ever transmitted.
 
 ### With Google (Ads)
 The App uses Google AdMob to show optional rewarded video ads for free-tier users. The Google Mobile Ads SDK may collect device identifiers, approximate location, and diagnostic data in accordance with [Google's privacy policy](https://policies.google.com/privacy). Premium users see no ads, and ad data collection does not apply to them.
@@ -82,7 +82,7 @@ We do not use Firebase Analytics, Crashlytics, or any analytics SDKs.
 - **Disable crowd intelligence:** Toggle off "Contribute to crowd intelligence" in Settings at any time. This immediately stops all data collection and uploads.
 - **Ad consent:** Manage ad personalization preferences via the in-app consent dialog or your device settings.
 - **Delete local data:** Uninstalling the App deletes all data stored on your device (database, preferences, and cache).
-- **Request data deletion:** Submit a request through our [data deletion form](https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform) or email us at hello.birdsoftware@gmail.com. Note that all uploaded data is anonymized with irreversible hashes and cannot be linked back to any individual user.
+- **Request data deletion:** Submit a request through our [data deletion form](https://forms.gle/WocasKTL5fxprDJe8) or email us at hello.birdsoftware@gmail.com. Note that all uploaded data is anonymized with irreversible hashes and cannot be linked back to any individual user.
 - **Export your data:** Premium users can export their full offer history as a CSV file via the History screen.
 
 ## 6. Data Security
@@ -90,7 +90,7 @@ We do not use Firebase Analytics, Crashlytics, or any analytics SDKs.
 - All network traffic uses HTTPS encryption.
 - All personal identifiers are hashed with SHA-256 before storage and transmission.
 - Local data is stored in the App's private directory, inaccessible to other apps.
-- GitHub access tokens are obfuscated in the application binary.
+- Server access tokens are obfuscated in the application binary.
 
 ## 7. Children's Privacy
 
